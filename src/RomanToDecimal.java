@@ -55,10 +55,10 @@ public class RomanToDecimal {
     }
 
     /**
-     * Calculates the value of a specific digit in an integer, if greater than 999 then it returns the number of thousands
+     * Calculates the value of a specific "place" in an integer, if greater than 999 then it returns the number of thousands
      * @param num the input decimal value
-     * @param position the digit from right to left
-     * @return the decimal value of a specific digit of num
+     * @param position the "place" from right to left
+     * @return the decimal value of a specific "place" of num
      */
     public static int valueOfPosition(int num, int position){
         if (position>3) {
