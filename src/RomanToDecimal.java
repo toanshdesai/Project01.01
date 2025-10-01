@@ -2,7 +2,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 /**
- * Converts between Roman numerals and decimal numbers, and validates Roman numeral input.
+ * Converts between Roman numerals and decimal numbers, and validates Roman numeral input
  * @version 09.30.2025
  * @author @toanshdesai
  * Flint: <a href="https://app.flintk12.com/chats/82500c27-d6a8-4f03-b216-587d3d1fa538">...</a>
