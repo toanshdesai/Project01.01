@@ -8,6 +8,12 @@ import java.util.Scanner;
  * Flint: <a href="https://app.flintk12.com/chats/82500c27-d6a8-4f03-b216-587d3d1fa538">...</a>
  */
 public class RomanToDecimal {
+
+    /**
+     * Converts the Roman numeral to decimal, while also checking for invariants
+     * @param roman the input Roman numeral
+     * @return Decimal value of the Roman numeral
+     */
     public static int romanToDecimal(String roman) {
         int sum=0;
         roman=roman.toUpperCase();
